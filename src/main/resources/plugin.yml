@@ -1,0 +1,9 @@
+name: AntiCrystalPVP
+authors: [ Savag3life ]
+version: 1.0
+main: me.savag3.anti.crystal.AntiCrystalPVP
+api-version: 1.19
+libraries:
+  - org.spongepowered:configurate-core:4.1.2
+  - org.spongepowered:configurate-yaml:4.1.2
+
