@@ -1,5 +1,5 @@
 ## Anti Ender Crystal PVP Plugin
-This plugin is designed to prevent players from using ender crystals to attack other players. Players will still be knocked back & you can still place ender crystals, but no damage is done to players by ender crystals.
+This plugin is designed to prevent players from using ender crystals or respawn anchors to attack other players. Players will still be knocked back & you can still place ender crystals, but no damage is done to players by ender crystals or respawn anchors.
 
 ### Config
 ```yaml
