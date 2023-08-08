@@ -10,4 +10,5 @@ world-list:
 ```
 If `disable-global-crystal-explosion-damage` is `true` - `world-list` functions as a blacklist, excluding worlds from the global block.<br />
 If `disable-global-crystal-explosion-damage` is `false` - `world-list` functions as a whitelist, meaning worlds in the list will have explosions blocked.
+
 Original Plugin by Savag3life
