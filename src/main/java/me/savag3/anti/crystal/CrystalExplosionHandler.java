@@ -23,7 +23,7 @@ public class CrystalExplosionHandler implements Listener {
     @EventHandler
     public void handlePlayerDamage(EntityDamageByEntityEvent e) {
         if (e.getCause() == EntityDamageEvent.DamageCause.ENTITY_EXPLOSION) {
-            if (e.getDamager().getType() == EntityType.ENDER_CRYSTAL) {
+            if (e.getDamager().getType() == EntityType.ENDER_CRYSTAL || Material.RESPAWN_ANCHOR) {
                 if (e.getEntity() instanceof Player) {
 
                     final String worldName = e.getEntity().getWorld().getName();
